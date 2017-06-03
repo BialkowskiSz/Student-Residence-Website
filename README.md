@@ -1,4 +1,5 @@
-Main Points:  
+# Web Development Project aimed at incorporating MySQL and PHP  
+Key functionality:  
   
 -Cookie set on homepage for 60s  
 -Nav Logos, Favicon and Main Logo made in Photoshop  
