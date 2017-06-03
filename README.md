@@ -1,4 +1,5 @@
-# Web Development Project aimed at incorporating MySQL and PHP  
+# Web Development Project
+Project aimed at incorporating MySQL and PHP together  
 Key functionality:  
   
 -Cookie set on homepage for 60s  
