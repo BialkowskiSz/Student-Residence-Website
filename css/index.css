@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+  padding: 0;
+  zoom: 97.5%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	min-width: 900px;
+	text-align: center;
+	background: url("../images/background.png");
+}
+
+#cookiesBar {
+  background-color: #C91F37;
+  width: 100%;
+  height: 45px;
+}
+
+#cookiesBarSub {
+  color: white;
+  font-family: Calibri;
+	font-size: 18px;
+	font-weight:normal;
+	line-height: 40px;
+}
+
+#cookiesClose {
+	cursor: pointer;
+	cursor: hand;
+}
+
+#mainLogo {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height:90px;
+}
+
+nav {
+	margin-top: 25px;
+	width: 100%;
+}
+
+nav ul {
+	width: 25%;
+	height: 200px;
+	margin: auto;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+nav ul li {
+		position: relative;
+		list-style: none;
+		padding-top: 20px;
+		text-align: center;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+		font-family: Arial;
+		font-weight: bold;
+		text-align: center;
+}
+
+nav ul li ul {
+	background-color: #C91F37;
+	border-radius: 10px;
+}
+nav ul li ul li {
+	padding: 0;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+nav ul li ul li a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+nav ul li ul.dropdown {
+    min-width: 100%;
+    display: none;
+		max-height: 130px;
+}
+
+nav ul li ul li a {
+	font-size: 13px;
+	line-height: 25px;
+	padding: 0;
+}
+
+nav ul li div#mainMenuBox:hover ul.dropdown {
+      display: block;
+}
+
+nav ul li ul.dropdown li {
+        display: block;
+}
+
+#mainMenuBox {
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+	width: 60%;
+	height: 200%;
+	background-color: #C91F37;
+	margin: auto;
+	line-height: 40px;
+}
+
+
+.firstStudent {
+	width: 50%;
+	float: left;
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+	margin: 20px 0px 0px 10px;
+	border-radius: 15px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.firstStudentRight {
+	width: 43%;
+	height: 200px;
+	float: left;
+	margin: 20px 0px 0px 10px;
+	background-color: white;
+	border-radius: 15px;
+	padding-top: 25px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+div.firstStudent img {
+	width: 100%;
+	border-radius: 15px;
+	display: block;
+}
+
+div.firstStudentRight a {
+	margin-top: 20px;
+	font-family: Verdana;
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+div.firstStudentRightText {
+	width: 90%;
+	margin: auto;
+}
+
+nav.bottom {
+	width: 100%;
+	background-color: #C91F37;
+	clear: both;
+	position: absolute;
+	bottom: 0;
+}
+
+nav.bottom img {
+	height: 40px;
+	padding: 15px 10px 15px 10px;
+}
+
+nav.bottom a:-webkit-any-link {
+	color: transparent;
+}
